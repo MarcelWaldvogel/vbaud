@@ -9,5 +9,6 @@ watched. You can think of it as a rate-limited version of `cat`.
 % make vbaud    (or: cc -o vbaud vbaud.c)
 % gzip -dc animation.vt.gz | ./vbaud 9600
 ```
+(There probably is no need to turn on compiler optimizations)
 
 Enjoy!
