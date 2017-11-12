@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 			"\t https://ftp.nice.ch/NiCE/vt100.anims/\n",
 			argv[0], argv[0], argv[0]);
 		exit(1);
-		/* This bit rate is frequently talso specified as the <baud rate>
+		/* This bit rate is frequently also specified as the <baud rate>
 		 * (e.g. "9600 baud"), even though that 1:1 matching is only true
 		 * for real serial lines, and not e.g. for modems.
 		 */
