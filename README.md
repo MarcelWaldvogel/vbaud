@@ -12,3 +12,8 @@ watched. You can think of it as a rate-limited version of `cat`.
 (There probably is no need to turn on compiler optimizations)
 
 Enjoy!
+
+## History
+
+* 2017-11-12 This is `git`-repacked code I wrote for https://ftp.nice.ch/NiCE/vt100.anims/ in 2013
+that turned out to be buggy.
