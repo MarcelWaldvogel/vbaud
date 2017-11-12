@@ -25,7 +25,7 @@ int main(int argc, char **argv)
 	unsigned long wait = 10000000L / speed;
 	int ch;
 	/* Turn of line buffering */
-	setvbuf(stdout, NULL, 0, _IONBF);
+	setvbuf(stdout, NULL, _IONBF, 0);
 	while ((ch = getchar()) != EOF) {
 		putchar(ch);
 		usleep(wait);
