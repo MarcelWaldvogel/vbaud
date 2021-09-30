@@ -21,10 +21,11 @@ int main(int argc, char **argv)
 		 * for real serial lines, and not e.g. for modems.
 		 */
 	}
-	/* Assume 10 bits (1 start+8 data+0 parity+1 stop) per char */
+	/* Assume actual serial line would require 10 bits
+	 * (1 start+8 data+0 parity+1 stop) per char */
 	unsigned long wait = 10000000L / speed;
 	int ch;
-	/* Turn of line buffering */
+	/* Turn off line buffering */
 	setvbuf(stdout, NULL, _IONBF, 0);
 	while ((ch = getchar()) != EOF) {
 		putchar(ch);
